@@ -11,7 +11,6 @@ startBtn.addEventListener('click', function () {
 	timer = true;
 	stopWatch();
 });
-
 stopBtn.addEventListener('click', function () {
 	timer = false;
 });
