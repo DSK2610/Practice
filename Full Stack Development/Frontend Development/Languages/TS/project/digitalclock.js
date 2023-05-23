@@ -1,7 +1,7 @@
 function timer(){
-    let minutes=39
+    let minutes=0
     let sec=0
-    let hours=12
+    let hours=0
     let mytimer=document.getElementById('digitalclock')
     
     setInterval(()=>{
