@@ -1,0 +1,10 @@
+<script>
+
+    let yeshwantPromis=new Promise((fullfill,notfullfill)=>{
+        setTimeout(()=>{notfullfill("i got fullfill")},2000)
+    
+    })
+    console.log(yeshwantPromis)
+    yeshwantPromis.then((a)=>{console.log(a)})
+    yeshwantPromis.catch((a)=>{console.log(a)})
+    </script>
