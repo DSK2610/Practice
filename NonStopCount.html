@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Non Stop Count</title>
+</head>
+<body>
+  <h1 id="countDisplay">Count: 0</h1>
+  <script>
+    let count = 0;
+
+    function incrementCount() {
+      count++;
+      document.getElementById('countDisplay').textContent = 'Count: ' + count;
+      setTimeout(incrementCount, 1000); // Call the function again after 1000 milliseconds (1 second)
+    }
+
+    // Start the counting process
+    incrementCount();
+  </script>
+</body>
+</html>

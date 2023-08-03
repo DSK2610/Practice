@@ -13,12 +13,12 @@ async function fetchProducts() {
       image.src = product.image;
       card.appendChild(image);
 
-      const title = document.createElement('h3');
+      const title = document.createElement('h2');
       title.textContent = product.title;
       card.appendChild(title);
 
       const price = document.createElement('span');
-      price.textContent = '$' + product.price;
+      price.textContent = 'Rs.' + product.price;
       card.appendChild(price);
 
       const container = document.getElementById('product-container');
